@@ -34,9 +34,11 @@
             <div class="col-2 font-weight-bold">Registration Date</div>
             <div class="col-1 font-weight-bold">Status</div>
         </div>
+      <div class="mb-5">
         {% for client in clients %}
       {% include 'clientsdata.html' %}
         {% endfor %}
+      </div>
     </div>
 </body>
 </html>
